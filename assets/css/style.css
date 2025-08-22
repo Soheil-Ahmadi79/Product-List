@@ -113,6 +113,9 @@ details summary{
     list-style: none;
     direction: rtl;
 }
+summary img{
+    width: 40px;
+}
 details ul{
     list-style: none;
     direction: rtl;
@@ -120,6 +123,8 @@ details ul{
     border-radius: 0.5rem;
     padding: 1rem;
     box-shadow: 0 0 0.5rem black;
+    position: absolute;
+    right:1rem;
 }
 details a{
     text-decoration: none;
